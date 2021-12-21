@@ -73,30 +73,24 @@ function App() {
         <div>
           <Title>Skills</Title>
           <SkillList>
-            <li>3+ yrs of experience in developing JavaScript Applications</li>
-            <li>Developing web application with React.js, Css-In-Js</li>
-            <li>Experience with Selenium</li>
-            <li>Experience with C#, .NET</li>
-            <li>Understanding OOP</li>
-            <li>Understanding SQL</li>
-            <li>Experience in Git, GitHub, GitLab and Git flow.</li>
-            <li>Understanding Amazon Web Services</li>
-            <li>Understanding CI/CD</li>
-            <li>
-              Experience with containerization and orchestration tools (Docker
-              and Kubernetes)
-            </li>
-            <li>
-              Strong attention to detail on every line of code, every unit test,
-              and every commit message
-            </li>
-            <li>
-              Comfortable with rapid development cycles and tight schedules
-            </li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+            <li>C#</li>
+            <li>React.js</li>
+            <li>.NET</li>
+            <li>Entity Framework</li>
+            <li>Selenium</li>
+            <li>OOP</li>
+            <li>Docker and Kubernetes</li>
+            <li>CSS, SASS, CSS-In-Js</li>
+            <li>Git, GitLab</li>
+            <li>CI/CD</li>
+            <li>Amazon Web Services</li>
           </SkillList>
         </div>
         <div>
-          <Title>Books I read through again and again</Title>
+          <Title>Books I read again and again</Title>
           <BookList>
             <li>
               <img src={CleanCode} alt="clean code" />
@@ -110,5 +104,29 @@ function App() {
     </Body>
   );
 }
+
+export const SkillListOlder = () => {
+  return (
+    <div>
+      <li>Language: JavaScript, TypeScript, Node.js, C#</li>
+      <li>Framework: React.js, .NET</li>
+      <li>Write Test case using Selenium, MSTest</li>
+      <li>Understanding OOP</li>
+      <li>Understanding SQL</li>
+      <li>Experience in Git, GitHub, GitLab and Git flow.</li>
+      <li>Understanding Amazon Web Services</li>
+      <li>Understanding CI/CD</li>
+      <li>
+        Experience with containerization and orchestration tools (Docker and
+        Kubernetes)
+      </li>
+      <li>
+        Strong attention to detail on every line of code, every unit test, and
+        every commit message
+      </li>
+      <li>Comfortable with rapid development cycles and tight schedules</li>
+    </div>
+  );
+};
 
 export default App;

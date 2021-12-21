@@ -70,6 +70,11 @@ export const CompanyTitle = styled.h4`
 
 export const SkillList = styled.ul`
   list-style-position: inside;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    width: 50%;
+  }
 `;
 
 export const BookList = styled.ul`
