@@ -93,6 +93,8 @@ function App() {
             <li>Git, GitLab</li>
             <li>CI/CD</li>
             <li>Amazon Web Services</li>
+            <li>Postman</li>
+            <li>Swagger</li>
           </SkillList>
         </div>
         <div>
