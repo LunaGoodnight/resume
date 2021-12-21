@@ -60,6 +60,10 @@ export const Title = styled.h3`
   padding-bottom: 1rem;
 `;
 
+export const List = styled.ul`
+  list-style-position: inside;
+`;
+
 export const WorkDetailItem = styled.ul`
   list-style-position: inside;
 `;

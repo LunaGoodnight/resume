@@ -13,6 +13,7 @@ import {
   SkillList,
   WorkDetailItem,
   BookList,
+  List,
 } from "./styleConfig";
 import CleanCode from "./images/cleancode.jpg";
 import Refactoring from "./images/refact2.webp";
@@ -102,7 +103,7 @@ function App() {
         </div>
         <div>
           <Title>Portfolio</Title>
-          <ul>
+          <List>
             <li>
               <Link href="https://devlinks.pinkjelly.org/" target="_blank">
                 Developer Links
@@ -118,7 +119,12 @@ function App() {
                 Cbet
               </Link>
             </li>
-          </ul>
+            <li>
+              <Link href="http://heychat.pinkjelly.org/" target="_blank">
+                HeyChat
+              </Link>
+            </li>
+          </List>
         </div>
       </A4Wrapper>
     </Body>
