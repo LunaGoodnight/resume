@@ -86,7 +86,8 @@ function App() {
             <li>.NET</li>
             <li>Entity Framework</li>
             <li>Selenium</li>
-            <li>OOP</li>
+            <li>Webpack</li>
+            <li>OOP Concept</li>
             <li>Docker and Kubernetes</li>
             <li>CSS, SASS, CSS-In-Js</li>
             <li>Git, GitLab</li>
