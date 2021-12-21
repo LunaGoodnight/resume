@@ -28,7 +28,11 @@ function App() {
             <img src={Info} alt="info" />
           </PersonImage>
           <InfoDetail>
-            <li>javaspringtea@gmail.com</li>
+            <li>
+              <Link href="mailto:javaspringtea@gmail.com">
+                javaspringtea@gmail.com
+              </Link>
+            </li>
             <li>Taipei, Taiwan</li>
             <li>0972 303 303</li>
             <li>
