@@ -104,10 +104,19 @@ function App() {
           <Title>Portfolio</Title>
           <ul>
             <li>
-              <Link src="https://devlinks.pinkjelly.org/">Developer Links</Link>
+              <Link href="https://devlinks.pinkjelly.org/" target="_blank">
+                Developer Links
+              </Link>
             </li>
             <li>
-              <Link src="http://crown.pinkjelly.org/">H8 Bet</Link>
+              <Link href="http://crown.pinkjelly.org/" target="_blank">
+                H8 Bet
+              </Link>
+            </li>
+            <li>
+              <Link href="http://chicocbetrwd.pinkjelly.org/" target="_blank">
+                Cbet
+              </Link>
             </li>
           </ul>
         </div>
