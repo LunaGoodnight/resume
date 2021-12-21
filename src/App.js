@@ -100,6 +100,17 @@ function App() {
             </li>
           </BookList>
         </div>
+        <div>
+          <Title>Portfolio</Title>
+          <ul>
+            <li>
+              <Link src="https://devlinks.pinkjelly.org/">Developer Links</Link>
+            </li>
+            <li>
+              <Link src="http://crown.pinkjelly.org/">H8 Bet</Link>
+            </li>
+          </ul>
+        </div>
       </A4Wrapper>
     </Body>
   );
