@@ -83,6 +83,8 @@ function App() {
             <li>Node.js</li>
             <li>C#</li>
             <li>React.js</li>
+            <li>Redux</li>
+            <li>React Testing Library</li>
             <li>.NET</li>
             <li>Entity Framework</li>
             <li>Selenium</li>
