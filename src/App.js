@@ -97,6 +97,7 @@ function App() {
             <li>Amazon Web Services</li>
             <li>Postman</li>
             <li>Swagger</li>
+            <li>Ansible</li>
           </SkillList>
         </div>
         <div>
