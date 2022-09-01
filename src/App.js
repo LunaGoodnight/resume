@@ -17,6 +17,8 @@ import {
 } from "./styleConfig";
 import CleanCode from "./images/cleancode.jpg";
 import Refactoring from "./images/refact2.webp";
+import DesignPattern from "./images/designPattern.webp";
+import Peaa from "./images/peaa.webp";
 
 function App() {
   return (
@@ -108,6 +110,12 @@ function App() {
             </li>
             <li>
               <img src={Refactoring} alt="" />
+            </li>
+            <li>
+              <img src={Peaa} alt="" />
+            </li>
+            <li>
+              <img src={DesignPattern} alt="" />
             </li>
           </BookList>
         </div>
