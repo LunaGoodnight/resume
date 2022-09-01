@@ -89,5 +89,8 @@ export const BookList = styled.ul`
     width: 13rem;
     height: 17rem;
     overflow: hidden;
+    img {
+      height: 100%;
+    }
   }
 `;
